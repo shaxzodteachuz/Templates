@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+body, html{
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.hero{
+  display:flex;
+  width:100%;
+  height: 70vh;
+  justify-content:center;
+  gap: 10%;
+  background-color: #688E26;
+  align-items:center;
+  position:relative;
+  overflow: hidden;
+  padding-top: 2rem;
+}
+
+.img-data{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -55px;
+  left: 25%;
+}
+.hero-img{
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background: url(https://images.unsplash.com/photo-1555421689-43cad7100750?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center/cover;
+  border-radius: 50%;
+}
+.hero-text{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: White;
+  text-align: center;
+  font-family: serif;
+  border-bottom: 4px solid white;
+}
+.job{
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.about-text{
+  width: 450px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: justify;
+  color: whitesmoke;
+}
+.about-text:first-letter{
+  float: left;
+  font-size: 3rem;
+}
+.main-header{
+  width:100%;
+  height: 7vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAA613;
+}
+.main-nav{
+  display:flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 1.5rem;
+  height: 100%;
+  justify-content: center;
+  
+}
+.main-nav li{
+  height: 100%;
+}
+
+.main-nav a{
+  color: #A10702;
+  text-decoration: none;
+  height: 100%;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.main-nav li:hover{
+  background-color:#F44708;
+}
+
+.section-title{
+  font-size:2rem;
+  color: #550527;
+  border-bottom: 2px solid #550527;
+  width: 20%;
+  text-align: center;
+  padding-bottom: .8rem;
+}
+
+.work{
+  height: 100vh;
+  background-color: whitesmoke;
+  padding: 2rem;
+}
+.work .section-title{
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid{
+  max-width: 1300px;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.grid-item{
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+}
+.grid-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background: rgba(0, 0, 0, .4);
+  padding: 0rem 2rem;
+}
+.grid-data:hover h3{
+  color:#FAA613;
+}
+.grid-title{
+  color: White;
+}
+.grid-data a:hover svg{
+  fill: #FAA613;
+}
+.grid-data svg{
+  width: 20px;
+  fill: white;
+}
+.grid-item:first-of-type{
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bareknuckle-branding.com%2Fwp-content%2Fuploads%2F2020%2F01%2FScreen-Shot-2020-01-24-at-9.06.28-AM.png&f=1&nofb=1) center/cover;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 100%;
+  height: 100%;
+}
+.grid-item:nth-of-type(2){
+  background: url(https://colorlib.com/wp/wp-content/uploads/sites/2/cool-website-template-66326-big.jpg) center/cover;
+  grid-column: 3/5;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+}
+.grid-item:nth-of-type(3){
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.downgraf.com%2Fwp-content%2Fuploads%2F2015%2F10%2FCool-and-Modern-Web-Designs-Gallery.jpg&f=1&nofb=1) center/cover;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  width: 100%;
+  height: 100%;
+}
+.grid-item:nth-of-type(4){
+  background: url(https://www.designyourway.net/diverse/5/coolwebsites/lespedaleurs_com.jpg) center/cover;
+  grid-column: 4/5;
+  grid-row: 2/4;
+  width: 100%;
+  height: 100%;
+}
+.grid-item:nth-of-type(5){
+  background: url(https://colorlib.com/wp/wp-content/uploads/sites/2/cool-website-template-ideas.jpg) center/cover;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  width: 100%;
+  height: 100%;
+}
+
+.contact{
+  background-color: #F44708;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.contact-title{
+  color: white;
+  border: none;
+}
+.action-call{
+  font-size: 1.5rem;
+}
+.contact-data{
+  width: auto;
+}
+.contact-icons svg{
+  fill:#FAA613;
+  transition: all ease .3s;
+}
+.contact-icons a:hover svg{
+  fill: white;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 850px){
+  .hero{
+    flex-flow: column;
+    height: fit-content;
+    gap: 5rem;
+  }
+  .work{
+    height: fit-content;
+  }
+  .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 250px);
+  }
+  .grid-item:first-of-type{
+  grid-column: 1/2;
+    grid-row: 1/2;
+}
+.grid-item:nth-of-type(2){
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.grid-item:nth-of-type(3){
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.grid-item:nth-of-type(4){
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.grid-item:nth-of-type(5){
+  grid-column: 1/2;
+  grid-row: 5/6;
+
+}
+}
+
+
+
+
+
+
+
+
+

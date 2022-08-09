@@ -1,0 +1,440 @@
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #F58719;
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* Page Content */
+  .content {padding:20px;}	
+          
+          
+          
+          
+          
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #ff9524;
+  }
+  #04AA6D
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: center;
+    width: 1%;
+    padding: 0px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+          
+          
+          
+          
+      
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 2px;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 305%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+          
+      body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }	
+          
+               
+    {    
+     position:fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: red;
+     color: red;
+     text-align: center;
+  }	
+          
+          
+          
+          
+      
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          footer {
+      max-width: 70%;
+      margin: 1rem auto;
+      overflow: auto;
+  }
+  
+  .footer,
+  .footer a {
+      color: #999;
+      font-size: 0.9rem;
+  }
+  
+  .footer p {
+      margin-bottom: 1.5rem;
+  }
+  
+  .footer .footer-cols {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
+  }
+  
+  .footer li {
+      line-height: 1.9;
+  }
+  
+  .footer .lang-select {
+      margin-top: 2rem;
+      color: #999;
+      background-color: #000;
+      background-image: none;
+      border: 1px solid #333;
+      padding: 1rem 1.2rem;
+      border-radius: 5px;
+  }
+  
+  /* Container */
+  .container {
+      max-width: 70%;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 2rem;
+  }
+  
+  /* Text Styles */
+  .text-xl {
+      font-size: 2rem;
+  }
+  
+  .text-lg {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+  }
+  
+  .text-md {
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem;
+  }
+  
+  .text-center {
+      text-align: center;
+  }
+  
+  .text-dark {
+      color: #999;
+  }
+  
+  /* Buttons */
+  .btn {
+      display: inline-block;
+      background: var(--primary-color);
+      color: #fff;
+      padding: 0.4rem 1.3rem;
+      font-size: 1rem;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      margin-right: 0.5rem;
+      transition: opacity 0.2s ease-in;
+      outline: none;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+      border-radius: 2px;
+  }
+  
+  .btn:hover {
+      opacity: 0.9;
+  }
+  
+  .btn-rounded {
+      border-radius: 5px;
+  }
+  
+  .btn-xl {
+      font-size: 2rem;
+      padding: 1.5rem 2.1rem;
+      text-transform: uppercase;
+  }
+  
+  .btn-lg {
+      font-size: 1rem;
+      padding: 0.8rem 1.3rem;
+      text-transform: uppercase;
+  }
+  
+  .btn-icon {
+      margin-left: 1rem;
+  }
+  
+  @media (max-width: 960px) {
+  
+          .showcase {
+          height: 70vh;
+      }
+  
+      .hide-sm {
+          display: none;
+      }
+  
+      .showcase-top img {
+          top: 30%;
+          left: 5%;
+          transform: translate(0);
+      }
+  
+      .showcase-content h1 {
+          font-size: 3.7rem;
+          line-height: 1;
+      }
+  
+      .showcase-content p {
+          font-size: 1.5rem;
+      }
+  
+      .footer .footer-cols {
+          grid-template-columns: repeat(2, 1fr);
+      }
+  
+      .btn-xl {
+          font-size: 1.5rem;
+          padding: 1.4rem 2rem;
+          text-transform: uppercase;
+      }
+  
+      .text-xl {
+          font-size: 1.5rem;
+      }
+  
+      .text-lg {
+          font-size: 1.3rem;
+          margin-bottom: 1rem;
+      }
+  
+      .text-md {
+          margin-bottom: 1rem;
+          font-size: 1.2rem;
+  
+  
+  }
+          
+  

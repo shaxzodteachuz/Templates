@@ -1,0 +1,121 @@
+*{
+    font-family: "league spartan";
+}
+a{
+    text-decoration:none !important;
+     
+}
+h2 {
+    font-size:3.5rem;
+}
+h3{
+    font-size:1.5rem;
+}
+h4{
+    font-size:1.5rem;
+}
+.container{
+    max-width: 1080px;
+}
+#navcima{
+    background-color:black;
+    top:0;
+    position: sticky;
+    z-index: 3;
+}
+.nav-link{
+    color:white!important;
+}
+.navbar-toggler {
+    color: white !important;
+    border-color: white!important;
+}
+.navbar-toggler-icon{
+    color:white!important;
+}
+#faixa-azul{
+    background-image: linear-gradient(135deg, #6f42c1 0%, #4582EC 100%);
+}
+#bloco-carrossel {
+    padding:50px;
+}
+#texto-carrossel {
+    color:white;
+    padding: 50px;
+}
+#main-carrossel{
+    padding: 20px;
+}
+#setinha {
+    color: white;
+}    
+#setinha:hover {
+    color:rgb(226, 223, 223);
+    transition: opacity .2s ease;
+}
+#corpinho{
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+.cards{
+    padding:50px 20px 50px 20px;
+}
+.quadradinhos {
+    padding:50px 0 50px 0;
+}
+.faixa {
+    padding: 150px 0 150px 0;
+}
+#avatar{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 1.5rem;
+    vertical-align: middle;
+    border-style: none;
+}
+.texto-foto {
+    margin: 0 50px 0 50px;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+#bootstrap-core{
+    padding-top:50px;
+}
+
+a.card:hover {
+    color: #495057;
+}
+.card{
+    color: black;
+    margin-bottom: 20px;
+  
+}
+footer{
+    background-color: #343a40;
+    padding:50px;
+    color:white;
+}
+.diagonal{   
+    height: 200px;
+    width: 100%;
+}
+#botao{
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+#botao:hover{
+    color:#4582EC;
+    background: white;
+
+}
+polygon{
+    background-color: white;
+}
+footer a{
+    color: white;
+}

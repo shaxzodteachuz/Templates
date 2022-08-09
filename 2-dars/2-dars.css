@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+ list-style: none;
+ background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?cs=srgb&dl=pexels-daniel-absi-952670.jpg&fm=jpg);
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+    box-shadow: 0px 30px 70px darkgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.nav-logo {
+  text-decoration: none;
+  user-select: none;
+  font-weight: bold;
+  font-family: justin honey, cursive;
+  float: left;
+  color: lightgray;
+  font-size: 35px;
+  padding: 10px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #000;
+    border: none;
+    font-family: impact;
+    color: #121212; 
+  }
+
+.nav a {
+    text-decoration: none;
+    color: lightgray;
+    display: block;
+    transition: .5s background-color;
+    border-radius: 5px;
+    margin-right: 0px;
+  }
+.nav a:hover {
+background: linear-gradient(90deg, #fff, #eeeeee);
+color: #000;
+  }
+  
+.nav li {
+width: 140px;
+border-bottom: none;
+height: 50px;
+line-height: 50px;
+font-size: 1em;
+display: inline-block;
+margin-right: 0px;
+}
+
+button {
+  border-radius: 20px;
+  background-color: #202020;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid gray;
+  padding: 10px;
+  font-family: impact;
+  box-shadow: 0 0px 15px 5px #fff;
+  color: lightgray;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.page {
+  display:inline;
+  background-color:#eeeeee;  
+}
+
+.dark-mode,
+.dark-mode .page {
+  background-color:#000;
+}
+
+.nav-logo:hover span:nth-child(1) {
+  margin-right: 20px;
+}
+
+.nav-logo:hover span:nth-child(1) ::after{
+content: "'"
+}
+
+.nav-logo:hover span {
+  color: hsl(0, 0%, 100%);
+  text-shadow: 0 0 20px hsl(0, 0%, 100%), 0 0 40px hsl(0,0%,100%),
+  0 0 80px hsl(0, 0%, 100%);
+}
+
+.nav-logo span {
+  transition: 0.9s ease-out;
+}
+

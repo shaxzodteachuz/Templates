@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="/2-dars/2-dars.css">
+<link rel="stylesheet" href="http://fonts.cdnfonts.com/css/justin-honey">
+<title>Nav Bar Template</title>
+</head>
+<body>
+<header>
+<nav class="navbar">
+  <a href="index.html" class="nav-logo"><span>Logo</span></a>
+<div class="nav">
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li
+</ul>
+<button onclick="myFunction()" id="btn">Toggle Dark/light</button>
+</div>
+</header>
+<div class="page"></div>
+</body>
+<footer>
+
+</footer>
+</html>
+<script type="text/javascript">
+  function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   if (element.classList.contains("dark-mode")){
+    document.getElementById('btn').innerHTML = "Light Mode";
+   }
+   else{
+    document.getElementById('btn').innerHTML = "Dark Mode";
+   }
+}
+
+</script>
